@@ -9,9 +9,12 @@
 <body>
 	<div id="app">
 	  <input type="text" v-on:input="changeTitle">
-	  <p>
-	     {{title}}
-	  </p>
+	  
+	  <p>Title: {{title}}</p>
+
+	  <p>{{hello()}}</p>
+
+	  <p><a v-bind:href="google">Google</a></p>
 	</div>
 </body>
 
@@ -19,11 +22,16 @@
 	new Vue({
 		el: '#app',
 	  	data: {
-	  		title: 'Hello Vue World.'
+	  		title: 'Hello Vue World.',
+	  		google: 'http://google.com'
 	  	},
 	  	methods: {
 	  		changeTitle: function(event){
 	    		this.title = event.target.value;
+	    	},
+
+	    	hello: function(){
+	    		return 'Hello there..';
 	    	}
 	  	}
 	});
