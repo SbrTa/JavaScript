@@ -4,6 +4,7 @@
 <head>
 	<title>Vue-01</title>
 	<script src="../vue.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
 </head>
 
 <body>
@@ -15,6 +16,7 @@
 	  <p>{{hello()}}</p>
 
 	  <p><a v-bind:href="google">Google</a></p>
+	  <p>{{counter}}</p>
 	</div>
 </body>
 
@@ -23,7 +25,8 @@
 		el: '#app',
 	  	data: {
 	  		title: 'Hello Vue World.',
-	  		google: 'http://google.com'
+	  		google: 'http://google.com',
+	  		counter: 0
 	  	},
 	  	methods: {
 	  		changeTitle: function(event){
