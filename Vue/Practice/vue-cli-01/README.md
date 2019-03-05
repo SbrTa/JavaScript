@@ -1,10 +1,10 @@
 # vue-cli-01
 > A Vue.js project
 
-## Install vue-cli
+# Install vue-cli
 npm install -g vue-cli
 
-## Create project
+# Create project
 vue init webpack-simple vue-cli-01
 
 ## Build Setup
