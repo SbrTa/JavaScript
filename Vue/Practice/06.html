@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>06. Multiple Vue</title>
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app1" style="border-style: solid;">
+		<h1>{{title}} </h1>
+		<button @click="changeByVue1">Change div2 Title</button>
+	</div>
+
+	<div id="app2" style="border-style: solid;">
+		<h1>{{title}}</h1>
+		<button @click="changeByVue2">Change div1 Title</button>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	var v1= new Vue({
+		el: '#app1',
+		data: {
+			title: 'Div1 title'
+		},
+		methods:{
+			changeByVue1: function(){
+				v2.title = 'Div2 title changed'
+			}
+		}
+	});	
+
+	var v2= new Vue({
+		el: '#app2',
+		data:{
+			title: 'Div2 title'
+		},
+		methods: {
+			changeByVue2: function(){
+				v1.title = 'Div1 title changed';
+			}
+		}
+	});
+</script>
+
+
+</html>
