@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>08. Local Component</title>
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+	<div id="app">
+		<my-cmp></my-cmp>
+		<hr>
+		<my-cmp></my-cmp>
+		
+	</div>
+
+	<div id="app2">
+		<my-cmp></my-cmp>
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	
+	var cmp = {
+		data: function(){
+			return{
+				status: 'active'
+			}
+		},
+		template: '<p>Server is {{status}} <button @click="changeStatus">change</button></p>',
+		methods:{
+			changeStatus: function(){
+				this.status='not active';
+			}
+		}
+	};
+
+	new Vue({
+		el: '#app',
+		components:{
+			'my-cmp':cmp
+		}
+	});
+
+	new Vue({
+		el: '#app2',
+		components:{
+			'my-cmp':cmp
+		}
+	});
+
+
+
+</script>
+</html>
