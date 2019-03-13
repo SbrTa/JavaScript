@@ -1,4 +1,5 @@
 <template>
+
     <div>
         <div id="on"
              @click="switched(true)"

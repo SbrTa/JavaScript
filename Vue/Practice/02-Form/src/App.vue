@@ -3,7 +3,7 @@
         <form v-if="!isSubmitted">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                    <h1>File a Complaint</h1>
+                    <h1>Vue Form</h1>
                     <hr>
                     <div class="form-group">
                         <label for="email">Mail</label>
@@ -127,8 +127,9 @@
                             <li v-for="item in sendMail">{{item}}</li>
                         </ul>
                         <p>Gender: {{gender}}</p>
-                        <p>Priority {{selectedPriority}}:</p>
+                        <p>Priority: {{selectedPriority}}</p>
                         <p>Switched: {{dataSwitch}}</p>
+                        <button class="btn btn-danger" @click="clearBack">Back</button>
                     </div>
                 </div>
             </div>
@@ -139,23 +140,29 @@
 <script>
     import Switched from "./Switched.vue";
 
+
+    function defaultData () {
+        return{
+            userData:{
+                email: '',
+                password: '',
+                age: 25,
+                message: ''
+            },
+            message: 'default message',
+            sendMail: [],
+            gender: 'Male',
+            priorities: ['High', 'Medium', 'Low'],
+            selectedPriority: 'High',
+            dataSwitch: true,
+            isSubmitted: false
+        }
+    }
+
     export default {
+
         data(){
-            return{
-                userData:{
-                    email: '',
-                    password: '',
-                    age: 25,
-                    message: ''
-                },
-                message: 'new message',
-                sendMail: [],
-                gender: 'Male',
-                priorities: ['High', 'Medium', 'Low'],
-                selectedPriority: 'High',
-                dataSwitch: true,
-                isSubmitted: false
-            }
+            return defaultData();
         },
         components:{
             appSwitch: Switched
@@ -163,7 +170,12 @@
         methods:{
             submitted(){
                 this.isSubmitted=true;
+            },
+            clearBack(){
+                this.isSubmitted=false;
+                Object.assign(this.$data, defaultData());
             }
+
         }
     }
 </script>
