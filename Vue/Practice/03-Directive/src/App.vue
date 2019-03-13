@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Custom Global Directive</h2>
+    <h2>Custom Directive</h2>
     <p v-highlight="'red'">Default Paragraph</p>
     <p v-highlight:background.delayed="'red'">Global</p>
     <hr>
