@@ -16,6 +16,7 @@
                 <hr>
                 <hr>
                 <button class="btn btn-primary" @click="fetchData">Get Data</button>
+                <hr>
                 <ul class="list-group">
                     <li class="list-group-item" v-for="u in users">{{u.username}} - {{u.email}}</li>
                 </ul>
@@ -38,7 +39,7 @@
         methods: {
             submit(){
                 console.log(this.user);
-                this.$http.post('https://vuejs-http-sbrta.firebaseio.com/data.json',this.user)
+                this.$http.post('',this.user)
                     .then(response => {
                         console.log(response);
                     }, error => {
@@ -46,7 +47,7 @@
                     });
             },
             fetchData(){
-                this.$http.get('https://vuejs-http-sbrta.firebaseio.com/data.json')
+                this.$http.get('')
                     .then(response => {
                        return response.json();
                     })
