@@ -8,7 +8,8 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <h1 className="display-4">Hellow there</h1>
-          <Title></Title>
+          <Title name="CAT"></Title>
+          <Title name="DOG"></Title>
         </div>
       </div>
     );
