@@ -1,0 +1,4 @@
+npm install -g create-react-app
+create-react-app first-react-app
+cd first-react-app
+npm start
