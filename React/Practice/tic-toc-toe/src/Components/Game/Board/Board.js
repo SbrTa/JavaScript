@@ -5,49 +5,18 @@ import {findWinner} from './Winner'
 
 class Board extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            squares: Array(9).fill(null),
-            xNow: true
-        }
-    }
-
-    handleClick(i){
-        const squares = this.state.squares.slice();
-        
-        if(findWinner(squares) || squares[i]){
-            return;
-        }
-
-        squares[i] = this.state.xNow ? 'X' : 'O';
-        this.setState({
-            squares,
-            xNow: !this.state.xNow
-        })
-    }
-
 
     renderSquare(i){
         return <Square 
-                    value={this.state.squares[i]}
-                    onClick={()=>this.handleClick(i)}>
+                    value={this.props.squares[i]}
+                    onClick={()=>this.props.onClick(i)}>
                 </Square>
     }
 
 
     render() {
-        const winner = findWinner(this.state.squares);
-        let status = null;
-        if(winner){
-            status = 'Winner: ' + winner;
-        }else{
-            status = 'Next player : ' + (this.state.xNow ? 'X':'O');
-        }
-
         return (
             <div>
-                <div className="status">{status}</div>
                 <div>
                     <div className="board-row">
                         {this.renderSquare(0)}
@@ -65,8 +34,7 @@ class Board extends React.Component {
                         {this.renderSquare(8)}
                     </div>
                 </div>
-            </div>
-            
+            </div> 
         )
     }
 }

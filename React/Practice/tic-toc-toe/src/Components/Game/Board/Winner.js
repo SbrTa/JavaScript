@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 export const findWinner = function findWinner(squares){
     const lines = [
         [0, 1, 2],
