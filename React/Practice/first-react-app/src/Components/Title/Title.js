@@ -5,7 +5,7 @@ class Title extends Component{
     constructor(props){
         super(props)
         this.state = {
-            title: 'This is Title',
+            title: 'Stop Watch',
             isInput: false
         }    
     }
