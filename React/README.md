@@ -9,6 +9,8 @@
   - Extension
     - Simple react snippets
     - Prettier code formatter
+    - VS Code JavaScript (ES6) snippets
+    - Babel JavaScript
   - Setting
     - Format on save: true
   - Color theme
