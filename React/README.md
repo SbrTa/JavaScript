@@ -5,4 +5,11 @@
 ### cd app-name
 ### npm start
 
+## VS Code
+  - Extension
+    - Simple react snippets
+    - Prettier code formatter
+  - Setting
+    - Format on save: true
+
 @BS23
