@@ -7,8 +7,9 @@
 ## Vuex
   - `npm install --save vuex`
   
-## Babel
+## Bable
   - `npm install --save-dev bable-preset-stage-2`
   
   
   
+@BS23
