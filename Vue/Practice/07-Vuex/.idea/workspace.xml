@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101d3fc4-ada7-49ac-8a76-3c27397db394" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../React/Practice/stop-watch/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../React/Practice/stop-watch/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -187,7 +188,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SbrTa/Udemy/[FreeTutorials.Eu] [UDEMY] React - The Complete Guide (incl Hooks, React Router, Redux) [FTU]/12. Adding Routing to our Burger Project/14.3 routing-burger--03-finished.zip/routing-burger--03-finished" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -219,11 +220,14 @@
       <workItem from="1554006592173" duration="599000" />
       <workItem from="1554359012263" duration="4496000" />
       <workItem from="1554721418915" duration="599000" />
+      <workItem from="1555510248556" duration="24000" />
+      <workItem from="1555569416012" duration="2000" />
+      <workItem from="1557383472604" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12950000" />
+    <option name="totallyTimeSpent" value="13013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
