@@ -11,20 +11,19 @@
 
 ### isEmpty
 ```
-    field: 'confirmNewPassword',
+    field: 'input_field',
     method: 'isEmpty',
     validWhen: false,
-    message: 'Confirm New Password is required'
+    message: 'input_field is required'
 ```
 
-### Equals
+### equals
 ```
-                field: 'confirmNewPassword',
-                // method: this.isPasswordMatched,
-                method: 'equals',
-                args: ['55'],
-                validWhen: true,
-                message: 'New password does not match'
+    field: 'input_field',
+    method: 'equals',
+    args: ['abcde'],
+    validWhen: true,
+    message: 'input_field does not match'
 ```
 
 
