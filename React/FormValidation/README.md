@@ -9,6 +9,14 @@
 
 ## Rules
 
+### isEmpty
+```
+    field: 'confirmNewPassword',
+    method: 'isEmpty',
+    validWhen: false,
+    message: 'Confirm New Password is required'
+```
+
 ### Equals
 ```
                 field: 'confirmNewPassword',
@@ -18,6 +26,8 @@
                 validWhen: true,
                 message: 'New password does not match'
 ```
+
+
 
 
 @BS23
