@@ -5,7 +5,22 @@
   - A library of string validators and sanitizers. 
   - https://www.npmjs.com/package/validator
   - via cmd: ```npm install validator```
-  - via package.json: ```validator": "^10.11.0```
+  - via package.json: ```"validator": "^10.11.0"```
+
+
+## invoke FormValidator into form component
+
+```
+        this.validator = new FormValidator([
+            {
+                rule
+            },
+            {
+                rule
+            },
+            ...
+        ]);
+```
 
 ## Rules
 
