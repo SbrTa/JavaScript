@@ -26,7 +26,32 @@
     message: 'input_field does not match'
 ```
 
+### isLength
+```
+    field: 'input_field',
+    method: 'isLength',
+    args: [{min:5, max:10}],
+    validWhen: true,
+    message: 'input_field length must be between 5 to 10'
+```
 
+### isInt
+```
+    field: 'input_field',
+    method: 'isInt',
+    args: [{min:1, max:99, allow_leading_zeroes:false}],
+    validWhen: true,
+    message: 'input_field must be between 1 to 99'
+```
+
+## matches (regex)
+```
+    field: 'input_field',
+    method: 'matches',
+    args: [/(?=.*[@])(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z@]{8,}$/],
+    validWhen: true,
+    message: 'input_field must contain at least one of a-z, A-Z, 0-9 and @ with minimum length 8 digits'
+```
 
 
 @BS23
