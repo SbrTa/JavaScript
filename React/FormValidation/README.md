@@ -11,15 +11,7 @@
 ## invoke FormValidator into form component
 
 ```
-        this.validator = new FormValidator([
-            {
-                rule
-            },
-            {
-                rule
-            },
-            ...
-        ]);
+        this.validator = new FormValidator([{rule},{rule},...]);
 ```
 
 ## Rules
