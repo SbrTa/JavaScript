@@ -10,8 +10,14 @@
 
 ## invoke FormValidator into form component
 
+### Initialize
 ```
         this.validator = new FormValidator([{rule},{rule},...]);
+```
+
+### Validation
+```
+        const validation = this.validator.validate(this.state.formFields);
 ```
 
 ## Rules
