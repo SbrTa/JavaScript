@@ -53,5 +53,13 @@
     message: 'input_field must contain at least one of a-z, A-Z, 0-9 and @ with minimum length 8 digits'
 ```
 
+## isEmail
+```
+    field: 'input_field',
+    method: 'isEmail',
+    validWhen: true,
+    message: 'not email'
+```                
+
 
 @BS23
