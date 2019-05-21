@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adc3786-0e3e-4a73-bd94-052322af894b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/burger-builder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/jest/cssTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/jest/fileTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/pnpTs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/webpackDevServer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/images/burger-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BuildControls/BuildControl/BuildControl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BuildControls/BuildControl/BuildControl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BuildControls/BuildControls.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BuildControls/BuildControls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/Burger.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/Burger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BurgerIngredient/BurgerIngredient.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/BurgerIngredient/BurgerIngredient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Layout/Layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Layout/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Logo/Logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Logo/Logo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/NavigationItems/NavigationItems.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/SideDrawer/SideDrawer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/SideDrawer/SideDrawer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Toolbar/Toolbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Toolbar/Toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Backdrop/Backdrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Backdrop/Backdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Button/Button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Button/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Modal/Modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/Modal/Modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/hoc/Auxx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/serviceWorker.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -137,7 +198,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -199,37 +260,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="burger-builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burger-builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burger-builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burger-builder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burger-builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burger-builder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\BS-033\Documents\GitHub\JavaScript\React\Practice\burger-builder\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\BS-033\Documents\GitHub\JavaScript\React\Practice\Burger-Builder\01-burger-builder\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="C:\Users\BS-033\Documents\GitHub\JavaScript\React\Practice\Burger-Builder\01-burger-builder\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -272,16 +315,18 @@
       <workItem from="1558242694428" duration="595000" />
       <workItem from="1558261964968" duration="939000" />
       <workItem from="1558329387083" duration="1200000" />
+      <workItem from="1558416664026" duration="182000" />
+      <workItem from="1558417173107" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38354000" />
+    <option name="totallyTimeSpent" value="38747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43269232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -295,7 +340,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33150986" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
