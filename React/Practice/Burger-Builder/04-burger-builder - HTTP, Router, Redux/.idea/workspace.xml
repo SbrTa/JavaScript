@@ -335,7 +335,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04-burger-builder - HTTP, Router, Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -399,15 +399,16 @@
       <workItem from="1558588407965" duration="19000" />
       <workItem from="1558588545289" duration="6321000" />
       <workItem from="1558850757184" duration="597000" />
-      <workItem from="1558937416091" duration="637000" />
+      <workItem from="1558937416091" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71186000" />
+    <option name="totallyTimeSpent" value="70962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26175213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
