@@ -9,7 +9,9 @@ const input = props => {
             inputElement = <input
                 className={classes.InputElement}
                 {...props.elementConfig}
-                value={props.value} onChange={props.change}/>;
+                value={props.value}
+                onChange={props.change}
+            />;
             break;
         case ('textarea'):
             inputElement = <textarea
