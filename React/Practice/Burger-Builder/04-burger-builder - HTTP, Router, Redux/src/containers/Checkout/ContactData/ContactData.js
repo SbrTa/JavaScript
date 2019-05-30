@@ -19,7 +19,7 @@ class ContactData extends React.Component{
                 validWhen: false,
                 message: 'Name is required'
             },
-            {
+            /*{
                 field: 'street',
                 method: 'isEmpty',
                 validWhen: false,
@@ -30,7 +30,7 @@ class ContactData extends React.Component{
                 method: 'isEmpty',
                 validWhen: false,
                 message: 'ZIP is required'
-            },
+            },*/
             {
                 field: 'country',
                 method: 'isEmpty',
@@ -103,6 +103,16 @@ class ContactData extends React.Component{
                     },
                     value: 'fastest'
                 },
+                payment: {
+                    elementType: 'radio',
+                    elementConfig: {
+                        options: [
+                            {value: '1', displayValue: 'Cash'},
+                            {value: '2', displayValue: 'Card'},
+                        ]
+                    },
+                    value: '1'
+                }
             },
             loading: false,
             validation: this.validator.setValid()
@@ -154,7 +164,8 @@ class ContactData extends React.Component{
         for(let key in this.state.orderForm){
             formElementsArray.push({
                 id : key,
-                config: this.state.orderForm[key]
+                config: this.state.orderForm[key],
+                message: this.state.validation[key] ? this.state.validation[key].message : ''
             });
         }
 
@@ -168,7 +179,7 @@ class ContactData extends React.Component{
                             elementConfig={formElement.config.elementConfig}
                             value={formElement.config.value}
                             change={(event) => this.inputChangedHandler(event, formElement.id)}
-                            message={this.state.validation[formElement.id].message}
+                            message={formElement.message}
                         />
                     );
                 })}

@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Input.css';
-import Aux from '../../../hoc/Auxx/Auxx';
 
 
 const input = props => {
@@ -8,39 +7,66 @@ const input = props => {
     switch (props.elementType) {
         case ('input'):
             inputElement =
-                <Aux>
+                <div>
                     <input
                         className={classes.InputElement}
                         {...props.elementConfig}
                         value={props.value}
                         onChange={props.change}/>
                     <label>{props.message}</label>
-                </Aux>;
+                </div>;
             break;
         case ('textarea'):
-            inputElement = <textarea
-                className={classes.InputElement}
-                {...props.elementConfig}
-                value={props.value} onChange={props.change}/>;
+            inputElement =
+                <div>
+                    <textarea
+                        className={classes.InputElement}
+                        {...props.elementConfig}
+                        value={props.value}
+                        onChange={props.change}/>
+                    <label>{props.message}</label>
+                </div>;
             break;
         case ('select'):
-            inputElement = (
-                <select
-                    className={classes.InputElement}
-                    value={props.value} onChange={props.change}>
+            inputElement =
+                <div>
+                    <select
+                        className={classes.InputElement}
+                        value={props.value}
+                        onChange={props.change}>
+                        {props.elementConfig.options.map(option=>(
+                            <option key={option.value} value={option.value}>
+                                {option.displayValue}
+                            </option>
+                        ))}
+                    </select>
+                    <label>{props.message}</label>
+                </div>;
+            break;
+        case ('radio'):
+            inputElement =
+                <div className="row">
                     {props.elementConfig.options.map(option=>(
-                        <option key={option.value} value={option.value}>
-                            {option.displayValue}
-                        </option>
+                        <label key={option.value}>
+                            <input
+                                onChange={props.change}
+                                value={option}
+                                type="radio" /> {option.displayValue}
+                        </label>
                     ))}
-                </select>
-            );
+                    <label>{props.message}</label>
+                </div>;
             break;
         default:
-            inputElement = <input
-                className={classes.InputElement}
-                {...props.elementConfig}
-                value={props.value} onChange={props.change}/>;
+            inputElement =
+                <div>
+                    <input
+                        className={classes.InputElement}
+                        {...props.elementConfig}
+                        value={props.value}
+                        onChange={props.change}/>
+                    <label>{props.message}</label>
+                </div>;
     }
     return (
         <div className={classes.Input}>
