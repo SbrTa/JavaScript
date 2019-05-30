@@ -18,6 +18,36 @@ class ContactData extends React.Component{
                 method: 'isEmpty',
                 validWhen: false,
                 message: 'Name is required'
+            },
+            {
+                field: 'street',
+                method: 'isEmpty',
+                validWhen: false,
+                message: 'Street is required'
+            },
+            {
+                field: 'zip',
+                method: 'isEmpty',
+                validWhen: false,
+                message: 'ZIP is required'
+            },
+            {
+                field: 'country',
+                method: 'isEmpty',
+                validWhen: false,
+                message: 'Country is required'
+            },
+            {
+                field: 'email',
+                method: 'isEmpty',
+                validWhen: false,
+                message: 'Email is required'
+            },
+            {
+                field: 'deliveryMethod',
+                method: 'isEmpty',
+                validWhen: false,
+                message: 'deliveryMethod is required'
             }
         ]);
 
@@ -131,18 +161,6 @@ class ContactData extends React.Component{
         let form = (
             <form onSubmit={this.orderHandler}>
                 {formElementsArray.map(formElement => {
-                    let x = '' + formElement.id;
-                    if (typeof formElement.id === typeof x){
-                        console.log("Same type");
-                    }
-                    if ("name" === x){
-                        console.log("Same value");
-                    }
-
-                    //PROBLEM IN THIS LINE
-                    //const msg = this.state.validation[formElement.id].message;
-                    const msg2 = this.state.validation['name'].message;
-                    // console.log(msg);
                     return (
                         <Input
                             key={formElement.id}
@@ -150,12 +168,10 @@ class ContactData extends React.Component{
                             elementConfig={formElement.config.elementConfig}
                             value={formElement.config.value}
                             change={(event) => this.inputChangedHandler(event, formElement.id)}
-                            message="default message"
+                            message={this.state.validation[formElement.id].message}
                         />
                     );
                 })}
-                <label>message: {this.state.validation.name.message}</label>
-                <br/>
                 <Button
                     btnType="Success">Order</Button>
             </form>
