@@ -97,8 +97,8 @@ class ContactData extends React.Component{
                     elementType: 'select',
                     elementConfig: {
                         options: [
-                            {value: 'fastest', displayValue: 'Fastest'},
-                            {value: 'cheapest', displayValue: 'Cheapest'},
+                            {displayValue: 'Fastest', value: 'fastest'},
+                            {displayValue: 'Cheapest', value: 'cheapest'},
                         ]
                     },
                     value: 'fastest'
@@ -125,6 +125,7 @@ class ContactData extends React.Component{
         for (let key in this.state.orderForm){
             formData[key] = this.state.orderForm[key].value;
         }
+        console.log(formData);
 
         const validation = this.validator.validate(formData);
         this.setState({validation});
@@ -158,6 +159,7 @@ class ContactData extends React.Component{
         updatedOrderForm[inputIdentifier] = updatedFormElement;
         this.setState({orderForm:updatedOrderForm});
     };
+
 
     render() {
         const formElementsArray = [];

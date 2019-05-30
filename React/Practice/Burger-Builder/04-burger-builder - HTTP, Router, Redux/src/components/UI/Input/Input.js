@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Input.css';
-
+import Select from 'react-select';
 
 const input = props => {
     let inputElement = null;
@@ -43,6 +43,18 @@ const input = props => {
                     <label>{props.message}</label>
                 </div>;
             break;
+        /*case ('select'):
+            inputElement =
+                <div>
+                    <Select
+                        //className={classes.InputElement}
+                        value={props.value}
+                        onChange={props.change}
+                        options={props.elementConfig.options}>
+                    </Select>
+                    <label>{props.message}</label>
+                </div>;
+            break;*/
         case ('radio'):
             inputElement =
                 <div className="row">
@@ -57,6 +69,7 @@ const input = props => {
                     <label>{props.message}</label>
                 </div>;
             break;
+
         default:
             inputElement =
                 <div>
