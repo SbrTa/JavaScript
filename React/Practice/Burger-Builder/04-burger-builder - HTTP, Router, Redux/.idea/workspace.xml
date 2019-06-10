@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -193,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -205,76 +205,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Checkout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Checkout" type="462c0819:PsiDirectoryNode" />
-              <item name="ContactData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04-burger-builder - HTTP, Router, Redux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-burger-builder - HTTP, Router, Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SbrTa/React/07. Forms/1- Section 7- Forms/Section 7- Forms/finish/vidly" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -343,12 +278,13 @@
       <workItem from="1559022716519" duration="5109000" />
       <workItem from="1559105242460" duration="17816000" />
       <workItem from="1559192498494" duration="9721000" />
-      <workItem from="1560054598841" duration="599000" />
+      <workItem from="1560054598841" duration="1198000" />
+      <workItem from="1560148855053" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111131000" />
+    <option name="totallyTimeSpent" value="111780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,8 +296,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24252136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -808,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+        <state relative-caret-position="180">
+          <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
