@@ -7,17 +7,24 @@ class Login extends Form{
     state = {
         data: {
             username: "",
-            password: ""
+            password: "",
+            userType: ""
         },
-        errors: {}
+        errors: {},
+        optionList: [
+            {_id:11,name:"VIP"},
+            {_id:22,name:"Premier"},
+            {_id:33,name:"Guest"}
+        ]
     };
 
     schema = {
-        username: Joi.string().required().error( () => {
-            return {message: "Username is required."};
-        }),
+        username: Joi.string().required().min(5).max(10).label("Username"),
         password: Joi.string().required().error( () => {
             return {message: "Password is required."};
+        }),
+        userType: Joi.string().required().error( ()=>{
+            return {message: "Please select User Type."};
         })
     };
 
@@ -32,6 +39,7 @@ class Login extends Form{
                 <form onSubmit={this.handleSubmit}>
                     {this.renderInput("username", "Username", "text")}
                     {this.renderInput("password", "Password", "password")}
+                    {this.renderSelect("userType", "User Type", this.state.optionList)}
                     {this.renderButton("Submit")}
                 </form>
             </div>
