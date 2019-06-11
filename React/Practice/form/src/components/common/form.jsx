@@ -24,7 +24,7 @@ class Form extends React.Component{
         const data = {...this.state.data};
         data[input.name] = input.value;
         this.setState({data});
-        console.log(this.state.data);
+        //console.log(this.state.data);
     };
 
     handleSubmit = (e) => {
@@ -60,6 +60,39 @@ class Form extends React.Component{
                     onChange={this.handleChange}/>
         );
     };
+
+    renderOtpChannel(name){
+        const {data,errors} = this.state;
+        return (
+            <div className='row'>
+                <span className='col-md-2'>OTP Channel: </span>
+                <span>
+                    <Input
+                        type="radio"
+                        name={name}
+                        label="Email"
+                        value="2"
+                        error=""
+                        defaultChecked
+                        onChange={this.handleChange}/>
+                    <Input
+                        type="radio"
+                        name={name}
+                        label="SMS"
+                        value="1"
+                        error=""
+                        onChange={this.handleChange}/>
+                    <Input
+                        type="radio"
+                        name={name}
+                        label="Both"
+                        value="3"
+                        error={errors[name]}
+                        onChange={this.handleChange}/>
+                </span>
+            </div>
+        );
+    }
 
     renderButton(label) {
         return (

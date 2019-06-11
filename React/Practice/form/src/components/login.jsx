@@ -8,7 +8,8 @@ class Login extends Form{
         data: {
             username: "",
             password: "",
-            userType: ""
+            userType: "",
+            otpChannel: "2"
         },
         errors: {},
         optionList: [
@@ -25,6 +26,9 @@ class Login extends Form{
         }),
         userType: Joi.string().required().error( ()=>{
             return {message: "Please select User Type."};
+        }),
+        otpChannel: Joi.string().required().error( ()=>{
+            return {message: "Please select an OTP channel."};
         })
     };
 
@@ -40,6 +44,7 @@ class Login extends Form{
                     {this.renderInput("username", "Username", "text")}
                     {this.renderInput("password", "Password", "password")}
                     {this.renderSelect("userType", "User Type", this.state.optionList)}
+                    {this.renderOtpChannel("otpChannel")}
                     {this.renderButton("Submit")}
                 </form>
             </div>
