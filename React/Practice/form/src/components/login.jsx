@@ -30,6 +30,7 @@ class Login extends Form{
         otpChannel: Joi.string().required().error( ()=>{
             return {message: "Please select an OTP channel."};
         })
+
     };
 
     doSubmit = () => {
