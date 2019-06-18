@@ -7,6 +7,9 @@
 ## Redux
   - npm install redux
 
+## Resource
+  - Multi-stage form: https://scotch.io/tutorials/creating-multistep-forms-with-react-and-semantic-ui
+
 ## VS Code 
   - Extension
     - Simple react snippets
