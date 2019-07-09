@@ -9,3 +9,9 @@
 ## PropTypes
   - https://wecodetheweb.com/2015/06/02/why-react-proptypes-are-important/
   
+
+
+## react-icon
+  - https://react-icons.netlify.com/#/
+## react-icon inside input field
+  - https://www.geeksforgeeks.org/css-to-put-icon-inside-an-input-element-in-a-form/
