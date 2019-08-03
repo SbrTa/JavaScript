@@ -15,3 +15,8 @@
   - https://react-icons.netlify.com/#/
 ## react-icon inside input field
   - https://www.geeksforgeeks.org/css-to-put-icon-inside-an-input-element-in-a-form/
+
+
+# Read 
+  - https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms
+  
