@@ -4,8 +4,9 @@
   - cd app-name
   - npm start
 
-## Redux
-  - npm install redux
+## Auto Complete off
+  - https://medium.com/paul-jaworski/turning-off-autocomplete-in-chrome-ee3ff8ef0908
+  - https://nealbuerger.com/2018/04/html-how-to-control-the-form-autofill-autocompetion/
 
 ## Resource
   - Multi-stage form: https://scotch.io/tutorials/creating-multistep-forms-with-react-and-semantic-ui
